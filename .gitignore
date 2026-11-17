@@ -1,0 +1,26 @@
+# install-time artifacts (generated, machine specific)
+runtime/venv/
+runtime/python/
+runtime/site-packages/
+runtime/everything/Everything.db
+runtime/everything/Everything.db.tmp
+runtime/everything/Run History.csv
+runtime/everything/Search History.csv
+vendor/downloads/
+hosts/*.json
+hosts/*.toml
+hosts/*.yml
+host-config.json
+mcp-config.example.json
+dsh-snippet.yml
+
+# python
+__pycache__/
+*.py[cod]
+
+# misc
+*.bak
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
